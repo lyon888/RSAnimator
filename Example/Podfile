@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RSAnimator_Example' do
+  pod 'RSAnimator', :path => '../'
+
+  target 'RSAnimator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
