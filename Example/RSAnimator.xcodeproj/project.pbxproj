@@ -41,7 +41,7 @@
 		17A21396858530DB32E75806 /* Pods-RSAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAnimator_Tests.release.xcconfig"; path = "Target Support Files/Pods-RSAnimator_Tests/Pods-RSAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1AB659E3249988DF756BBD9E /* Pods-RSAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAnimator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RSAnimator_Tests/Pods-RSAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2033F1F3636BB32E10329728 /* Pods_RSAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSAnimator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43BC375C2653585D3BA716C1 /* RSAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RSAnimator.podspec; path = ../RSAnimator.podspec; sourceTree = "<group>"; };
+		43BC375C2653585D3BA716C1 /* RSAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RSAnimator.podspec; path = ../RSAnimator.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RSAnimator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAnimator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2731BECD061875CBB365B29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F14040994378D09789F61B09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B2731BECD061875CBB365B29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F14040994378D09789F61B09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F2F7AEBA8E9A55B6E1EA06C4 /* Pods_RSAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSAnimator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCAFDDA164FD0205F4F1E9E /* Pods-RSAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAnimator_Example.debug.xcconfig"; path = "Target Support Files/Pods-RSAnimator_Example/Pods-RSAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				1AB659E3249988DF756BBD9E /* Pods-RSAnimator_Tests.debug.xcconfig */,
 				17A21396858530DB32E75806 /* Pods-RSAnimator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lyonLiu;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6E8JJCA3T4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = FFCAFDDA164FD0205F4F1E9E /* Pods-RSAnimator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6E8JJCA3T4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSAnimator/RSAnimator-Prefix.pch";
 				INFOPLIST_FILE = "RSAnimator/RSAnimator-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 1143BA3CFC2FD5589CAB31B2 /* Pods-RSAnimator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6E8JJCA3T4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSAnimator/RSAnimator-Prefix.pch";
 				INFOPLIST_FILE = "RSAnimator/RSAnimator-Info.plist";
