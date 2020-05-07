@@ -1,0 +1,16 @@
+PODS:
+  - RSAnimator (0.1.0)
+
+DEPENDENCIES:
+  - RSAnimator (from `../`)
+
+EXTERNAL SOURCES:
+  RSAnimator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSAnimator: e7ee2ba7fbb9673935da7d351ba48576cbc95d68
+
+PODFILE CHECKSUM: de0b9b67c2125c503bd30b52d0764b5f40aadfd6
+
+COCOAPODS: 1.8.4

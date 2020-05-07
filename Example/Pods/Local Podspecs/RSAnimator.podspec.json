@@ -1,0 +1,22 @@
+{
+  "name": "RSAnimator",
+  "version": "0.1.0",
+  "summary": "A short description of RSAnimator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lyonLiu/RSAnimator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lyonLiu": "lyonLiu_job@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lyonLiu/RSAnimator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RSAnimator/Classes/**/*"
+}

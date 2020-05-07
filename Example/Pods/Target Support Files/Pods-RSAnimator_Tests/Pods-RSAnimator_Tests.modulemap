@@ -1,0 +1,6 @@
+framework module Pods_RSAnimator_Tests {
+  umbrella header "Pods-RSAnimator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
