@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 动画弹出类型
 typedef NS_ENUM(NSInteger , YSAnimatorPopType) {
-    YSAnimatorPopTypeScale = 0,   //从小到大弹出
+    YSAnimatorPopTypeScale = 0,         //从小到大弹出
     YSAnimatorPopTypeUpToBottom,        //从上到下弹出
     YSAnimatorPopTypeBottomToUp         //从下到上弹出
 };

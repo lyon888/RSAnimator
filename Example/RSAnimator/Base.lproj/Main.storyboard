@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +18,58 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAr-b5-M6P">
+                                <rect key="frame" x="0.0" y="288.5" width="375" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNo-6V-Pao">
+                                        <rect key="frame" x="0.0" y="30" width="375" height="30"/>
+                                        <state key="normal" title="从上到下"/>
+                                        <connections>
+                                            <action selector="popAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="mE9-vN-PoG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEh-If-ab9">
+                                        <rect key="frame" x="0.0" y="60" width="375" height="30"/>
+                                        <state key="normal" title="从下到上"/>
+                                        <connections>
+                                            <action selector="popAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="awS-le-loH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ow-Rn-BkE">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <state key="normal" title="从小到大"/>
+                                        <connections>
+                                            <action selector="popAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="Vid-tT-b3g"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7ow-Rn-BkE" secondAttribute="trailing" id="A7z-bn-5Yo"/>
+                                    <constraint firstItem="uNo-6V-Pao" firstAttribute="leading" secondItem="bAr-b5-M6P" secondAttribute="leading" id="EeF-3m-U54"/>
+                                    <constraint firstAttribute="bottom" secondItem="PEh-If-ab9" secondAttribute="bottom" id="GZ1-f8-W0k"/>
+                                    <constraint firstAttribute="trailing" secondItem="PEh-If-ab9" secondAttribute="trailing" id="VMv-fl-cCK"/>
+                                    <constraint firstItem="PEh-If-ab9" firstAttribute="leading" secondItem="bAr-b5-M6P" secondAttribute="leading" id="c0d-1d-eEJ"/>
+                                    <constraint firstItem="PEh-If-ab9" firstAttribute="top" secondItem="uNo-6V-Pao" secondAttribute="bottom" id="cIc-Ni-O9U"/>
+                                    <constraint firstItem="7ow-Rn-BkE" firstAttribute="top" secondItem="bAr-b5-M6P" secondAttribute="top" id="oON-yo-5GQ"/>
+                                    <constraint firstItem="7ow-Rn-BkE" firstAttribute="leading" secondItem="bAr-b5-M6P" secondAttribute="leading" id="tBa-Ib-KcC"/>
+                                    <constraint firstAttribute="trailing" secondItem="uNo-6V-Pao" secondAttribute="trailing" id="tsR-Tx-kzf"/>
+                                    <constraint firstItem="uNo-6V-Pao" firstAttribute="top" secondItem="7ow-Rn-BkE" secondAttribute="bottom" id="zvl-Fj-jGh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bAr-b5-M6P" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="oPd-LX-Z3m"/>
+                            <constraint firstAttribute="trailing" secondItem="bAr-b5-M6P" secondAttribute="trailing" id="qcv-Bv-LcQ"/>
+                            <constraint firstItem="bAr-b5-M6P" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="sLz-EF-9nv"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>
