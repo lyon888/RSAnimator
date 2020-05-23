@@ -9,11 +9,16 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+/// ObjView属性协议
+@protocol YSAnimatorObjView <NSObject>
+@property (nonatomic,strong) UIView *contentView;
+@end
+
 
 @protocol YSAnimatorProtocol <NSObject>
 
 /// 使用动画的视图对象
-@property (weak, nonatomic) UIView *objView;
+@property (weak, nonatomic) UIView <YSAnimatorObjView>*objView;
 
 
 /// 显示动画视图

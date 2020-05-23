@@ -10,12 +10,10 @@
 		1356A9FF191EBB3A55E3F5179B9728BC /* Pods-RSAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FE089034BB886F6022697972FA2D0C /* Pods-RSAnimator_Tests-dummy.m */; };
 		170274AEDE84E41B179571C20413B7A6 /* YSAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 600DD979797E3C4B70A7EF97B3298F9B /* YSAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B5D52C3EFD5C213AC9532BBB4BD1659 /* YSAnimatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8279C2A043F486BC30F0631CB6B4B8 /* YSAnimatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D0D69AD229837D9BF93519E039D4BAD /* UIView+YSAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 858C7A87284DDC1472DF9A033579D9D3 /* UIView+YSAnimator.m */; };
 		45AB4D25F2B328368FEF84E05CC8E442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		70FEDB24AD209C5D927971CBC17439CB /* Pods-RSAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFFFAD1638FA1EED5439A121B37C029 /* Pods-RSAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A8AD06A6DA432EE53623A293D7A65C7 /* Pods-RSAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C287966F0516C28C6B50B58A7B60799 /* Pods-RSAnimator_Example-dummy.m */; };
 		9D5E51B8485CC83D1DC2AB303E06DBCC /* Pods-RSAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA81ECD3BEDD1E41CED5EC998AFD35D /* Pods-RSAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C80CA9A70796EA6CAF85985A0F5519DE /* UIView+YSAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = F72ED716E4A1E59B74FA48257AC4A283 /* UIView+YSAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF8949ACCA79E359A3F4417AACA40E7B /* RSAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AFEEB2A6E1E3CC121B03FF5E0D71B2 /* RSAnimator-dummy.m */; };
 		DB4FE5CBADE880E82FA4183C9185D8C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E39F3BED27BD8C3AC82CA99E35B43AC6 /* YSAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9576E785FC61CC172F3BA0A451B8C42F /* YSAnimator.m */; };
@@ -58,7 +56,6 @@
 		737280EA17EEFCE1E8F6FC241A038470 /* Pods-RSAnimator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSAnimator_Tests-Info.plist"; sourceTree = "<group>"; };
 		76776AA7628913DC22283F6606047D6E /* Pods-RSAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7B3948C56D4CE4688476277F530F27BF /* RSAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSAnimator.xcconfig; sourceTree = "<group>"; };
-		858C7A87284DDC1472DF9A033579D9D3 /* UIView+YSAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YSAnimator.m"; path = "RSAnimator/Classes/UIView+YSAnimator.m"; sourceTree = "<group>"; };
 		8907F4C0F293FBEE0B70C1772420417D /* Pods-RSAnimator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSAnimator_Tests.modulemap"; sourceTree = "<group>"; };
 		9576E785FC61CC172F3BA0A451B8C42F /* YSAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YSAnimator.m; path = RSAnimator/Classes/YSAnimator.m; sourceTree = "<group>"; };
 		97F71B2824FA52CD1701AA399B4D5F94 /* Pods-RSAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +73,6 @@
 		E45498AD3286C93F031141EBF4A2872D /* Pods_RSAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSAnimator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB430BE23CD2774A9A09B9BDB615CF88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ED1A92FC21A03754BC98CF2D7634230F /* RSAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSAnimator-Info.plist"; sourceTree = "<group>"; };
-		F72ED716E4A1E59B74FA48257AC4A283 /* UIView+YSAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YSAnimator.h"; path = "RSAnimator/Classes/UIView+YSAnimator.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,8 +217,6 @@
 		ECBAD9C76645C38E5A1F95F50BFD3CFF /* RSAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				F72ED716E4A1E59B74FA48257AC4A283 /* UIView+YSAnimator.h */,
-				858C7A87284DDC1472DF9A033579D9D3 /* UIView+YSAnimator.m */,
 				600DD979797E3C4B70A7EF97B3298F9B /* YSAnimator.h */,
 				9576E785FC61CC172F3BA0A451B8C42F /* YSAnimator.m */,
 				2B8279C2A043F486BC30F0631CB6B4B8 /* YSAnimatorProtocol.h */,
@@ -257,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA005B3FD0126C04795A332C60A0449E /* RSAnimator-umbrella.h in Headers */,
-				C80CA9A70796EA6CAF85985A0F5519DE /* UIView+YSAnimator.h in Headers */,
 				170274AEDE84E41B179571C20413B7A6 /* YSAnimator.h in Headers */,
 				3B5D52C3EFD5C213AC9532BBB4BD1659 /* YSAnimatorProtocol.h in Headers */,
 			);
@@ -397,7 +390,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8949ACCA79E359A3F4417AACA40E7B /* RSAnimator-dummy.m in Sources */,
-				3D0D69AD229837D9BF93519E039D4BAD /* UIView+YSAnimator.m in Sources */,
 				E39F3BED27BD8C3AC82CA99E35B43AC6 /* YSAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

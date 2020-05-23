@@ -7,7 +7,6 @@
 //
 
 #import "YSAnimator.h"
-#import "UIView+YSAnimator.h"
 
 @interface YSAnimator ()
 
